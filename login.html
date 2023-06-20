@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .login-container {
+            width: 300px;
+            margin: 0 auto;
+        }
+        .login-input {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Login Page</h2>
+    <div class="login-container">
+        <form action="/login" method="post">
+            <label for="username">Username:</label><br>
+            <input type="text" id="username" name="username" class="login-input"><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" class="login-input"><br>
+            <input type="submit" value="Login">
+        </form> 
+    </div>
+</body>
+</html>
